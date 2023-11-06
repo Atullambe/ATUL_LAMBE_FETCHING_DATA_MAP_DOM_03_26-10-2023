@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.style{
+    background-color: black;
+}
+.container {
+    position: relative;
+    height: 10rem;
+    width: 30rem;
+    transform: translate(80%, 50%);
+
+}
+.container2{
+    height: 45rem;
+    width: 30rem;
+    transform: translate(24rem,8rem);
+
+
+}
+
+.heading {
+    position: absolute;
+    color: #fff;
+    margin-top: 3rem;
+    margin-left: 11rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container button {
+
+    color: #0d0d0d;
+    margin-top: 5rem;
+    margin-left: 11rem;
+    height: 1.5rem;
+    width: 9.5rem;
+}
+.hide{
+    display:none;
+}
+.block{
+    display: block;
+}
+.location{
+    height: 20rem;
+    width: 30rem;
+    
+}
+.lat{
+    transform: translate(2rem,5rem);
+   
+}
+.long{
+    transform: translate(22rem,3.6rem);
+
+}
+.format{
+    color:rgb(249, 246, 246);
+    width:1rem;
+}
+.pin iframe{
+    height:10rem;
+    width:25rem;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+}
+#data ul{
+    position: relative;
+    border: solid 2px black;
+    width:25rem;
+    margin-left: 2rem;
+}
+#data li{
+   
+    margin-left: 2rem;
+    
+}
+#data h1{
+    width:10rem;
+  
+    transform: translate(2rem,1rem);
+}
+/* .location h1{
+    margin-left:10rem;
+} */
